@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "f0bf2dc0904fb242",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8d84022f894c6b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63968017e7d50e7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "13_ЛОР.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13_ЛОР"
+            }
+          },
+          {
+            "id": "db1e48eeb04bd3d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "13_ЛОР.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13_ЛОР"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0921284ca5a527c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "09287291bc9efe09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afa2bc4494c73656",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "d3b84ed18573fb89",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "72a793856d4b725a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5b4f39de7d025e09",
+    "type": "split",
+    "children": [
+      {
+        "id": "4baac997546db7ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffff823416fc7256",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "9a4e873f9987caa9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "a82f88a8ccd0e06d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "7ce998f11fc43fb5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "7d0486e667a2dab8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "63968017e7d50e7b",
+  "lastOpenFiles": [
+    "00_Главная.md",
+    "13_ЛОР.md",
+    "11_Задача_агенту.md",
+    "20_SplitDoc/DAYZ_ENFORCE_SCRIPT_RULES.md",
+    "Pasted image 20260619235956.png",
+    "Pasted image 20260619220344.png",
+    "LOR_IMAGE/33.png",
+    "LOR_IMAGE/32.png",
+    "LOR_IMAGE/31.png",
+    "LOR_IMAGE/30.png",
+    "LOR_IMAGE/29_2.png",
+    "LOR_IMAGE/29_1.png",
+    "LOR_IMAGE/29.png",
+    "LOR_IMAGE/28.png",
+    "Без названия.canvas",
+    "Квесты, идеи описания классов.canvas",
+    "90_Legacy_Archive/Documentation/README_INSTALLATION.md",
+    "90_Legacy_Archive/Documentation/RUSSIAN_ENCODING.md",
+    "12_START_зеркало.md",
+    "LOR_IMAGE",
+    "Новая папка",
+    "11_AGENT_TASK_LOOP_зеркало.md",
+    "20_SplitDoc/IMAGE_GENERATION_PRESET.md",
+    "01_Текущее_состояние.md",
+    "22_Legacy_Check/00_Проверка_хвостов_Documentation.md",
+    "06_Идеи.md",
+    "20_SplitDoc/TRIGGER_RULES.md",
+    "02_Решения.md",
+    "Добро пожаловать.md",
+    "2026-06-13.md",
+    "20_SplitDoc/TRADER_RULES.md",
+    "90_Legacy_Archive/00_INDEX.md",
+    "90_Legacy_Archive/Documentation_SplitDoc/TASK_HISTORY.md",
+    "90_Legacy_Archive/Documentation_SplitDoc/START.md",
+    "90_Legacy_Archive/Documentation_SplitDoc/SERVER_PROFILE_RULES.md",
+    "90_Legacy_Archive/Documentation_SplitDoc/QUEST_UI_RULES.md",
+    "90_Legacy_Archive/Documentation_SplitDoc/QUEST_JSON_CONTRACT.md",
+    "90_Legacy_Archive/Documentation_SplitDoc/QUEST_EDITOR_RULES.md",
+    "90_Legacy_Archive/Documentation_SplitDoc/GIT_REVIEW_RULES.md",
+    "90_Legacy_Archive/Documentation_SplitDoc/ENCODING_RULES.md",
+    "90_Legacy_Archive/Documentation_SplitDoc",
+    "90_Legacy_Archive/Documentation",
+    "90_Legacy_Archive",
+    "22_Legacy_Check",
+    "21_Project_Docs",
+    "20_SplitDoc"
+  ]
+}

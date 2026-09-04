@@ -1,0 +1,348 @@
+﻿{
+    "version":  3,
+    "quests":  [
+                   {
+                       "id":  "quest_hunter_1",
+                       "name":  "РљР°СЂС‚РѕС€РµС‡РєР° СЃ РјР°СЃР»РёС†РµРј",
+                       "description":  "РЎР»СѓС€Р°Р№ РјРµРЅСЏ С‚СѓС‚ РѕР·Р°РґР°С‡РёР» РњР°СЃРєРёРјС‹С‡, РіРѕРІРѕСЂРёС‚, Р¶Р°СЂРµС…Сѓ РЅР°РґРѕ РѕС„РѕСЂРјРёС‚СЊ. Р“РґРµ С…РѕС‡РµС€СЊ РЅР°Р№РґРё РјРЅРµ РєР°СЂС‚РѕС€РєРё 50 С€С‚СѓРє, 1 Р»РёСЃРёС‡РєСѓ, 2 СЃРёСЂРѕРµР¶РєРё, 1 Р±РµР»С‹Р№ РіСЂРёР±, С‚РѕР»СЊРєРѕ С‡С‚РѕР± СЃРІРµР¶РµРµ РІСЃРµ! Р СЌС‚Рѕ РЅР° С‚РµР±Рµ РЅРѕР¶РёС‡РµРє, С‡С‚Рѕ Р±С‹ СЃ РєРѕСЂРЅСЏРјРё РЅРµ РІС‹СЂС‹РІР°Р»!",
+                       "repeatable":  1,
+                       "cooldownSeconds":  43200,
+                       "requiresPrevious":  "",
+                       "requiredQuestIds":  [
+
+                                            ],
+                       "giveItems":  [
+                                         {
+                                             "className":  "SteakKnife",
+                                             "quantity":  1,
+                                             "spawnOnGround":  0
+                                         }
+                                     ],
+                       "objectives":  [
+                                          {
+                                              "type":  "item",
+                                              "className":  "PotatoSeed",
+                                              "quantity":  50,
+                                              "removeOnComplete":  1,
+                                              "useItemQuantity":  0,
+                                              "allowPartialTurnIn":  1
+                                          },
+                                          {
+                                              "type":  "item",
+                                              "className":  "PleurotusMushroom",
+                                              "quantity":  1,
+                                              "removeOnComplete":  1,
+                                              "useItemQuantity":  0,
+                                              "allowPartialTurnIn":  1
+                                          },
+                                          {
+                                              "type":  "item",
+                                              "className":  "MacrolepiotaMushroom",
+                                              "quantity":  2,
+                                              "removeOnComplete":  1,
+                                              "useItemQuantity":  0,
+                                              "allowPartialTurnIn":  1
+                                          },
+                                          {
+                                              "type":  "item",
+                                              "className":  "BoletusMushroom",
+                                              "quantity":  1,
+                                              "removeOnComplete":  1,
+                                              "useItemQuantity":  0,
+                                              "allowPartialTurnIn":  1
+                                          }
+                                      ],
+                       "rewards":  [
+                                       {
+                                           "className":  "Ammo_12gaPellets",
+                                           "quantity":  7,
+                                           "spawnOnGround":  0
+                                       }
+                                   ],
+                       "hideUntilRequirementsComplete":  false,
+                       "offerTriggerIds":  [
+                                               "hunter_trigger"
+                                           ],
+                       "completionTriggerIds":  [
+                                                    "hunter_trigger"
+                                                ],
+                       "rewardTriggerIds":  [
+                                                "hunter_trigger"
+                                            ],
+                       "triggerActions":  [
+
+                                          ]
+                   },
+                   {
+                       "id":  "quest_fisherman_1",
+                       "name":  "Р С‹Р±Р° СЌС‚Рѕ РІР°Рј РЅРµ РєР°СЂС‚РѕС€РєР°!",
+                       "description":  "РЎР»СѓС…, СЂРѕРґРЅРѕР№, РїСЂРёРЅРµСЃРё РјРЅРµ РєР°СЂРїРёРєРѕРІ, С€С‚СѓРє 6, СЏ С‚СѓС‚ Р·Р°СЃС‚СЂСЏР», РЅР° РєР°РєРѕРµ С‚Рѕ РІСЂРµРјСЏ, СЃ С‡РµСЂРЅРѕРіРѕ, РїСЂРёРІС‹Рє Рє СЂС‹Р±РєРµ, Р° С‚СѓС‚ С…РµСЂ РµРµ РЅР°Р№РґРµС€СЊ, РІРѕР±С‰РµРј РЅРµСЃРё, СЏ РЅРµ РѕР±РёР¶Сѓ. Р“РґРµ Р»РѕРІРёС‚СЊ!? РўР°Рє РЅР° С‡РµСЂРЅРѕРј РѕР·РµСЂРѕ РµСЃС‚СЊ!)",
+                       "repeatable":  1,
+                       "cooldownSeconds":  43200,
+                       "requiresPrevious":  "",
+                       "requiredQuestIds":  [
+
+                                            ],
+                       "giveItems":  [
+                                         {
+                                             "className":  "HuntingKnife",
+                                             "quantity":  1,
+                                             "spawnOnGround":  0
+                                         }
+                                     ],
+                       "objectives":  [
+                                          {
+                                              "type":  "item",
+                                              "className":  "Carp",
+                                              "quantity":  6,
+                                              "removeOnComplete":  1,
+                                              "useItemQuantity":  0,
+                                              "allowPartialTurnIn":  1
+                                          }
+                                      ],
+                       "rewards":  [
+                                       {
+                                           "className":  "Ammo_12gaPellets",
+                                           "quantity":  0,
+                                           "spawnOnGround":  0
+                                       }
+                                   ],
+                       "hideUntilRequirementsComplete":  false,
+                       "offerTriggerIds":  [
+                                               "fisherman_trigger"
+                                           ],
+                       "completionTriggerIds":  [
+                                                    "fisherman_trigger"
+                                                ],
+                       "rewardTriggerIds":  [
+                                                "fisherman_trigger"
+                                            ],
+                       "triggerActions":  [
+
+                                          ]
+                   },
+                   {
+                       "id":  "quest_Rasputin_1",
+                       "name":  "Р’Р·Р°РёРјРѕРІС‹СЂСѓС‡РєР° РїСЂРµР¶РґРµ РІСЃРµРіРѕ!",
+                       "description":  "Р—РґРѕСЂРѕРІР°, СЏ С‚СѓС‚ СЌС‚Рѕ, РІСЃРїРѕРјРЅРёР» РїСЂРѕ РґСЂСѓР¶РєР° СЃРІРѕРµРіРѕ, РІРѕС‚ РїСЂРѕРІРµРґР°С‚СЊ СЂРµС€РёР». Р•СЃР»Рё РЅРµ СЃР»РѕР¶РЅРѕ, Р·Р°РіРѕС‚РѕРІСЊ РјРЅРµ 10 РїР°Р»РѕРє Рё РґСЂРѕРІ 6 С€С‚СѓРє, СЏ С‚РµР±Рµ РїР°С‚СЂРѕРЅ РЅР°РєРёРЅСѓ. РќСѓ Рё СЌС‚Рѕ, РІС‹РїРµР№ Р·Р° РґСЂСѓР¶Р±Р°РЅР° РјРѕРµРіРѕ. РќСѓ Рё СЃР°РјРѕРµ РіР»Р°РІРЅРѕРµ, РІРёР¶Сѓ РЅРµ Р·РґРµС€РЅРёР№. РўСѓС‚ 2 РѕС‚РЅРѕСЃРёС‚РµР»СЊРЅРѕ Р±РµР·РѕРїР°СЃРЅС‹С… РїРѕСЃРµР»РµРЅРёР№, С…СѓС‚РѕСЂ СЃ Р»РµРІР° РѕС‚ РћР»СЊС€Рё, Рё Р§РµСЂРЅРѕРµ РћР·РµСЂРѕ. Рљ РѕР·РµСЂСѓ РїРѕР№РґС‘С€СЊ вЂ” РіР»СЏРґРё РІ РѕР±Р°, РІ Р»РµСЃСѓ С‚Р°Рј Р·Р°СЂР°Р¶С‘РЅРЅС‹Рµ С€Р°СЃС‚Р°СЋС‚. Рђ РµР¶РµР»Рё РІ СЃС‚РѕСЂРѕРЅСѓ РћР»СЊС€Рё РґРІРёРЅРµС€СЊ, С‚Р°Рє СЃ РіРѕСЂРєРё СЃРїСѓСЃС‚РёСЃСЊ РјРµС‚СЂРѕРІ РЅР° С‚СЂРёСЃС‚Р° вЂ” СЃСЂР°Р·Сѓ РІС‹Р№РґРµС€СЊ РєСѓРґР° РЅР°РґРѕ, РѕРЅРѕ СЂСЏРґРѕРј. РўРѕР»СЊРєРѕ РІ СЃР°РјСѓ РћР»СЊС€Сѓ Р»РёС€РЅРёР№ СЂР°Р· РЅРµ СЃСѓР№СЃСЏ РїРѕРєР°вЂ¦ С†РµР»РµРµ Р±СѓРґРµС€СЊ.",
+                       "repeatable":  0,
+                       "cooldownSeconds":  250000,
+                       "requiresPrevious":  "",
+                       "requiredQuestIds":  [
+
+                                            ],
+                       "giveItems":  [
+                                         {
+                                             "className":  "DisinfectantAlcohol",
+                                             "quantity":  1,
+                                             "spawnOnGround":  0
+                                         }
+                                     ],
+                       "objectives":  [
+                                          {
+                                              "type":  "item",
+                                              "className":  "WoodenStick",
+                                              "quantity":  2,
+                                              "removeOnComplete":  1,
+                                              "useItemQuantity":  0,
+                                              "allowPartialTurnIn":  1
+                                          },
+                                          {
+                                              "type":  "item",
+                                              "className":  "Firewood",
+                                              "quantity":  2,
+                                              "removeOnComplete":  1,
+                                              "useItemQuantity":  0,
+                                              "allowPartialTurnIn":  1
+                                          }
+                                      ],
+                       "rewards":  [
+                                       {
+                                           "className":  "Ammo_12gaPellets",
+                                           "quantity":  3,
+                                           "spawnOnGround":  0
+                                       }
+                                   ],
+                       "hideUntilRequirementsComplete":  false,
+                       "offerTriggerIds":  [
+                                               "Rasputin_1_trigger"
+                                           ],
+                       "completionTriggerIds":  [
+                                                    "Rasputin_1_trigger"
+                                                ],
+                       "rewardTriggerIds":  [
+                                                "Rasputin_1_trigger"
+                                            ],
+                       "triggerActions":  [
+
+                                          ]
+                   },
+                   {
+                       "id":  "quest_fisherman_2",
+                       "name":  "РџРѕСЃС‚Р°РІРєР° РјРµРґРёС†РёРЅС‹",
+                       "description":  "Р”СЂСѓР¶РёС‰Рµ, СЃ СЂС‹Р±РѕР№ С‚С‹ РјРЅРµ РїРѕРјРѕРі, РѕРіСЂРѕРјРЅРѕРµ СЃРїР°СЃРёР±Рѕ С‚РµР±Рµ. РќРѕ С‚РµРїРµСЂСЊ, РјРЅРµ РЅСѓР¶РЅС‹ Р±РёРЅС‚С‹, 6 С€С‚СѓРє Р±СѓРґРµС‚ РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ. РЈ РњР°РєСЃРёРјС‹С‡Р°, РґР° Рё Сѓ РІСЃРµС… Р±Р°СЂС‹Рі, РґРёРєРёРµ С†РµРЅС‹ РЅР° РЅРёС…, РѕРЅРѕ Рё РїРѕРЅСЏС‚РЅРѕ, СЌС‚Рѕ Р¶Рµ Р±Р°СЂС‹РіРё, С…РѕС‚СЊ Рё СЃРІРѕРё... РўР° Рё С…РµСЂ СЃ РЅРёРјРё. РќР° С‚РµР±Рµ РЅРѕР¶РёС‡РµРє, РїСЂРѕР№РґРёСЃСЊ РїРѕ РґРѕРјР°Рј, РЅР°СЃРѕР±РёСЂР°Р№ С‚СЂСЏРїРѕРє РїРѕР±РѕР»СЊС€Рµ, РјРѕР¶РµС‚ Р±СѓС…Р»Р° РЅР°Р№РґРµС€СЊ, РґР»СЏ РґРµР·РёРЅС„РµРєС†РёРё, РЅРёС‡РµРіРѕ РЅРµ РїСЂРѕРїСѓСЃРєР°Р№. Рђ С‚СѓС‚ СѓР¶Рµ, РѕР±СЂР°С‚РЅРѕ РєРѕРіРґР° РІРµСЂРЅС‘С€СЊСЃСЏ, РїРѕРґ Р»РµСЃС‚РЅРёС†РµР№ СЃС‚РѕРёС‚ РІРµСЂСЃС‚Р°Рє. РўР°Рј Рё РёРЅСЃС‚СЂСѓРєС†РёСЏ РµСЃС‚СЊ, РїРѕРґСЃРєР°Р¶РµС‚ С‡С‚Рѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РґР»СЏ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ Р±РёРЅС‚РѕРІ. РўС‹ РіР»Р°РІРЅРѕРµ РІ РІРµСЂСЃС‚Р°Рє РІСЃРµ РїРѕР»РѕР¶Рё, С‡С‚Рѕ РЅР°РґРѕ РґР»СЏ РёР·РіРѕС‚РѕРІР»РµРЅРёСЏ Р±РёРЅС‚РѕРІ, С‚Р°Рє СѓРґРѕР±РЅРµР№ Р±СѓРґРµС‚. Р’СЃРµ Р¶РґСѓ СЃ РЅРµС‚РµСЂРїРµРЅРёРµРј.",
+                       "repeatable":  1,
+                       "cooldownSeconds":  80000,
+                       "requiresPrevious":  "",
+                       "requiredQuestIds":  [
+
+                                            ],
+                       "giveItems":  [
+                                         {
+                                             "className":  "SteakKnife",
+                                             "quantity":  1,
+                                             "spawnOnGround":  0
+                                         }
+                                     ],
+                       "objectives":  [
+                                          {
+                                              "type":  "item",
+                                              "className":  "BandageDressing",
+                                              "quantity":  1,
+                                              "removeOnComplete":  1,
+                                              "useItemQuantity":  0,
+                                              "allowPartialTurnIn":  1
+                                          }
+                                      ],
+                       "rewards":  [
+                                       {
+                                           "className":  "Ammo_12gaPellets",
+                                           "quantity":  1,
+                                           "spawnOnGround":  0
+                                       }
+                                   ],
+                       "hideUntilRequirementsComplete":  false,
+                       "offerTriggerIds":  [
+                                               "fisherman_trigger"
+                                           ],
+                       "completionTriggerIds":  [
+                                                    "fisherman_trigger"
+                                                ],
+                       "rewardTriggerIds":  [
+                                                "fisherman_trigger"
+                                            ],
+                       "triggerActions":  [
+
+                                          ]
+                   }
+               ],
+    "triggers":  [
+                     {
+                         "id":  "hunter_trigger",
+                         "position":  [
+                                          13092.814453125,
+                                          117.00776672363281,
+                                          13084.4853515625
+                                      ],
+                         "radius":  2,
+                         "focusHeight":  1.2000000476837158,
+                         "focusRadius":  1,
+                         "questIds":  [
+                                          "quest_hunter_1"
+                                      ],
+                         "hintText":  "[F] РљРѕР»СЏ Р’РѕСЂРѕРЅ",
+                         "spawnNpc":  1,
+                         "npcClassName":  "SurvivorM_Mirek",
+                         "npcPosition":  [
+                                             13092.814453125,
+                                             117.00776672363281,
+                                             13084.4853515625
+                                         ],
+                         "npcOrientation":  [
+                                                380,
+                                                0,
+                                                0
+                                            ],
+                         "npcLoadout":  [
+                                            "FlatCap_BrownCheck",
+                                            "HuntingJacket_Brown",
+                                            "Jeans_Blue",
+                                            "WorkingGloves_Brown",
+                                            "HikingBootsLow_Black"
+                                        ],
+                         "npcHandsItem":  "FarmingHoe",
+                         "npcBackItems":  [
+                                              "HuntingBag",
+                                              "Izh43Shotgun"
+                                          ]
+                     },
+                     {
+                         "id":  "fisherman_trigger",
+                         "position":  [
+                                          13091.6630859375,
+                                          116.75563049316406,
+                                          13088.6376953125
+                                      ],
+                         "radius":  2,
+                         "focusHeight":  1.2000000476837158,
+                         "focusRadius":  1,
+                         "questIds":  [
+                                          "quest_fisherman_2",
+                                          "quest_fisherman_1"
+                                      ],
+                         "hintText":  "[F] Р С‹Р±Р°Рє Р“Р°РІСЂРёР»Р°",
+                         "spawnNpc":  1,
+                         "npcClassName":  "SurvivorM_Boris",
+                         "npcPosition":  [
+                                             13091.6630859375,
+                                             116.75563049316406,
+                                             13088.6376953125
+                                         ],
+                         "npcOrientation":  [
+                                                75,
+                                                0,
+                                                0
+                                            ],
+                         "npcLoadout":  [
+                                            "BeanieHat_Green",
+                                            "Raincoat_Green",
+                                            "HunterPants_Summer",
+                                            "WorkingGloves_Black",
+                                            "Wellies_Green"
+                                        ],
+                         "npcHandsItem":  "FishingRod",
+                         "npcBackItems":  [
+                                              "DryBag_Green",
+                                              "Izh43Shotgun"
+                                          ]
+                     },
+                     {
+                         "id":  "Rasputin_1_trigger",
+                         "position":  [
+                                          12979.4,
+                                          212.68,
+                                          12761.7
+                                      ],
+                         "radius":  2,
+                         "focusHeight":  1.2,
+                         "focusRadius":  1,
+                         "questIds":  [
+                                          "quest_Rasputin_1"
+                                      ],
+                         "hintText":  "[F] Р¤РµРґРѕСЂ (Р Р°СЃРїСѓС‚РёРЅ)",
+                         "spawnNpc":  1,
+                         "npcClassName":  "SurvivorM_Oliver",
+                         "npcPosition":  [
+                                             12979.4,
+                                             212.68,
+                                             12761.7
+                                         ],
+                         "npcOrientation":  [
+                                                130,
+                                                0,
+                                                0
+                                            ],
+                         "npcLoadout":  [
+                                            "FS_ForestOldCap_ColorBase",
+                                            "FS_Forest_Jacket",
+                                            "FS_RusVKPO_pants",
+                                            "WorkingGloves_Beige",
+                                            "CombatBoots_Grey"
+                                        ],
+                         "npcHandsItem":  "VEPR12u",
+                         "npcBackItems":  [
+                                              "FS_Eco_Orange_Bag"
+                                          ]
+                     }
+                 ]
+}

@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"da7d6612ecebfadc","type":"text","text":"## Знакомство с нужными людьми 2.","x":33,"y":-7,"width":250,"height":147,"color":"4"},
+		{"id":"28983c9b4b387ca3","type":"text","text":"Ворон просит сходить к Васе по прозвищу Шприц и познакомиться лично. Дорога недалёкая, но лучше идти осторожно.","x":380,"y":3,"width":250,"height":127},
+		{"id":"4282958a489723be","type":"text","text":"Здорова. Раз уж с Гогой познакомился значит надо и с другими, к шприцу сходи, он на ВИБИЧ, это база которая ближе к Черному Озеру. Как и Черного Озера будешь выходить с ворот которые на стройку смотрят, идешь по дороге, потом она кончиться будет перекресток, на право Березино, а тебе прямо, через ограждения и по лесу, опасному лесу. Вот его пройдешь, там не спутаешь, найдешь базу, и Шприца.","x":824,"y":-65,"width":396,"height":263},
+		{"id":"cfc5ff368df9bdd4","type":"text","text":"А, от Ворона значит? Ну ладно, раз он прислал, значит толк с тебя какой-то будет. На те приветственные) Дел у нас тут хватает. Воробей мне как только сообщит что то, сразу инфа будет по работе.","x":1400,"y":-65,"width":404,"height":263},
+		{"id":"12d10ab622fc5bb9","type":"text","text":"WaterBottle 1\nMoneyRuble1 30\nBandageDressing 2","x":1920,"y":14,"width":250,"height":106},
+		{"id":"a1e14e730239e59a","type":"text","text":"Вася шприц","x":1554,"y":-170,"width":250,"height":60},
+		{"id":"b7406e5401a9466c","type":"text","text":"коля ворон","x":897,"y":-170,"width":250,"height":60},
+		{"id":"a6c7c3e5c981e7f4","type":"text","text":"## Знакомство с нужными людьми 3.","x":33,"y":460,"width":250,"height":147,"color":"4"},
+		{"id":"9cdbb727cc3f8c8c","type":"text","text":"Ворон просит сходить к Никите по прозвищу Береза и познакомиться лично. Он держится отдельно, но может быть полезен дальше.","x":420,"y":420,"width":250,"height":187},
+		{"id":"4b0b08a01ada6797","type":"text","text":"Здорова. Раз уж с Гогой познакомился и дорогу понял, есть ещё люди. В общем подготовься как следует, жратвы набери, патрон, мало ли где придётся притормозить. Путь в Березино, там инфраструктура более менее налаживается, есть там люди, Серега да Василий. Просто дойди до них. Может что надо им. В самом начале Березина, будет бар с лева, там и переночевать можно, закупиться, ну и вообще планов там много, место транзитное, скоро там начнется движуха.","x":864,"y":347,"width":436,"height":308},
+		{"id":"1cfaf45d807bcd4d","type":"text","text":"**От Ворона? Понял. Значит, тебя уже немного знают. Держи воды и мелочи на дорогу, и главное тушёнка, это парни с ВИБИЧа нас ящиком тушенкой подогрели, так что и тебе перепало считай. Не теряйся, здесь лишние знакомые редко бывают лишними.**","x":1400,"y":370,"width":404,"height":263},
+		{"id":"5b4b6dc13f5483c9","type":"text","text":"WaterBottle 1\nMoneyRuble1 50\nKKCR_Closed_Bank_Stew 1","x":1920,"y":449,"width":250,"height":106},
+		{"id":"bfb134827f263df3","type":"text","text":"Никита Береза","x":1554,"y":265,"width":250,"height":60},
+		{"id":"9d8c434777fbb8b5","type":"text","text":"коля ворон","x":937,"y":265,"width":250,"height":60},
+		{"id":"a696442a7d56a259","type":"text","text":"Список навесов AK74","x":-420,"y":-167,"width":250,"height":60},
+		{"id":"7b46c202b1dba22a","type":"text","text":"AK-74 30Rnd Mag  \nAK-74 45Rnd Mag \nRPK-74 Mag","x":-420,"y":-67,"width":250,"height":140},
+		{"id":"07b0194cdd61672a","type":"text","text":"Kobra Sight  \nPSO-1 Scope  \nPSO-1-1 Scope  \nKashtan Scope  \n1PN51 Scope","x":-420,"y":133,"width":250,"height":140},
+		{"id":"f15051523bd1c48a","type":"text","text":"**Глушитель / дульные:**\n\nAK Suppressor / восточный suppressor  \nImprovised Suppressor  \nAK Bayonet","x":-419,"y":353,"width":250,"height":180},
+		{"id":"94405a299eda6455","type":"text","text":"AK Wooden Handguard  \nAK Polymer Handguard  \nAK Rail Handguard","x":-419,"y":613,"width":250,"height":135}
+	],
+	"edges":[
+		{"id":"8f428e931e0b9abd","fromNode":"da7d6612ecebfadc","fromSide":"right","toNode":"28983c9b4b387ca3","toSide":"left"},
+		{"id":"51f7cee0d775e97a","fromNode":"28983c9b4b387ca3","fromSide":"right","toNode":"4282958a489723be","toSide":"left"},
+		{"id":"ef1dce2acf0c208a","fromNode":"4282958a489723be","fromSide":"top","toNode":"b7406e5401a9466c","toSide":"bottom"},
+		{"id":"22294a172f861b6f","fromNode":"cfc5ff368df9bdd4","fromSide":"left","toNode":"4282958a489723be","toSide":"right"},
+		{"id":"0ca6355d5068a075","fromNode":"a1e14e730239e59a","fromSide":"bottom","toNode":"cfc5ff368df9bdd4","toSide":"top"},
+		{"id":"0759eafff71044c1","fromNode":"b7406e5401a9466c","fromSide":"bottom","toNode":"4282958a489723be","toSide":"top"},
+		{"id":"d4356c2bd94d242b","fromNode":"cfc5ff368df9bdd4","fromSide":"top","toNode":"a1e14e730239e59a","toSide":"bottom"},
+		{"id":"086dd93c64df38d1","fromNode":"cfc5ff368df9bdd4","fromSide":"right","toNode":"12d10ab622fc5bb9","toSide":"left"},
+		{"id":"77ccf81e885e9715","fromNode":"9cdbb727cc3f8c8c","fromSide":"right","toNode":"4b0b08a01ada6797","toSide":"left"},
+		{"id":"7c76ea92bdf65caa","fromNode":"4b0b08a01ada6797","fromSide":"top","toNode":"9d8c434777fbb8b5","toSide":"bottom"},
+		{"id":"3ba7006066aa9feb","fromNode":"1cfaf45d807bcd4d","fromSide":"left","toNode":"4b0b08a01ada6797","toSide":"right"},
+		{"id":"ef58b23d24e655eb","fromNode":"9d8c434777fbb8b5","fromSide":"bottom","toNode":"4b0b08a01ada6797","toSide":"top"},
+		{"id":"1a9786c5fcd7936b","fromNode":"1cfaf45d807bcd4d","fromSide":"top","toNode":"bfb134827f263df3","toSide":"bottom"},
+		{"id":"3032f66ae14a8795","fromNode":"1cfaf45d807bcd4d","fromSide":"right","toNode":"5b4b6dc13f5483c9","toSide":"left"},
+		{"id":"116b4d8e98f5b70a","fromNode":"bfb134827f263df3","fromSide":"bottom","toNode":"1cfaf45d807bcd4d","toSide":"top"},
+		{"id":"4b82bce3b8659af8","fromNode":"a6c7c3e5c981e7f4","fromSide":"right","toNode":"9cdbb727cc3f8c8c","toSide":"left"}
+	]
+}
